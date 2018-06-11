@@ -4,10 +4,17 @@
         <title>Todo List</title>
     </head>
     <body>
-        <h1>TODO:</h1>
-        <input type="text" id="todoInput"/>
-        <button id="submit">Enter</button>
-        <ul id="list"></ul>
+        <link rel="stylesheet" href="todo.css">
+        <div class="todo_card">
+            <h1 class="todo_header">TODO:</h1>
+            <ul id="list"></ul>
+
+            <div class="todo_add-item">
+                <input class="todo_input" type="text" id="todoInput"/><!--
+                --><button id="submit">Enter</button>
+            </div>
+        </div>
+
         <script type="text/javascript" src="todo.js"></script>
     </body>
 </html>
